@@ -19,10 +19,7 @@ public class BlogController {
         this.b1 = b1;
     }
 
-    // IMPORTANTE  https://stackoverflow.com/questions/64715520/trying-to-make-a-request-with-or-without-parameters
-    // in  requestParam bisogna mettere    value = "categoria required = false   altrimenti richiederebbe la categoria
-    // nella index prima di partire  e non partirebbe
-    // Infatti  getArticoliPerCategoria richiede categoria come paramentro ed è usato come metodo all'interno di homePage
+
     
     // Home page con possibilità di filtrare articoli per categoria
     @GetMapping("/")

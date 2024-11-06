@@ -40,7 +40,7 @@ On the user-facing side, articles are displayed dynamically, organized by catego
 ### Search Functionality
 The application includes a search form that allows users to search articles by keyword.
 
-![Search Functionality](images/3.jpg)
+![Search Functionality](images/search.jpg)
 
 ## Database Structure
 The application uses a MySQL database to store articles and categories. Articles are linked to categories, allowing users to filter articles by their respective category.
@@ -51,4 +51,4 @@ The application uses a MySQL database to store articles and categories. Articles
 
 ### Footer
 
-&copy; 2024 Blog with Search and Login. All rights reserved.
+&copy; 2024 Blog with Search and Login. Giuseppe Denora  All rights reserved.

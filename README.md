@@ -8,7 +8,7 @@
 
 The **Blog with Search and Login** project is a web application built with **Spring Boot**. It allows administrators to manage articles, including creating, editing, and deleting articles. The app is secured with login functionality and features a dynamic category-based sidebar and a search bar for users to filter articles.
 
-![Blog Homepage](images/blog-homepage.png)
+![Blog Homepage](images/3.jpg)
 
 ## Technologies Used
 

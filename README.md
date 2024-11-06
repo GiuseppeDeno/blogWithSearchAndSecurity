@@ -1,10 +1,4 @@
-Non è possibile utilizzare HTML completo come <html>, <head>, <body>, ecc., all'interno di un file README.md in formato Markdown, poiché le piattaforme come GitHub supportano solo una selezione limitata di tag HTML (come <img>, <h1>, <p>, <a>, ecc.) e non eseguono né CSS né JavaScript. In alternativa, puoi utilizzare solo elementi di base di Markdown per rendere visivo il README.md.
 
-Ecco come puoi adattare il contenuto in modo che funzioni in un file README.md:
-
-    Rimuovi il CSS e Javascript e usa solo Markdown e tag HTML supportati. Puoi anche personalizzare con elementi di formattazione Markdown come titoli e immagini.
-
-    Esempio di come potrebbe apparire il tuo README.md:
 
 # Blog with Search and Login
 

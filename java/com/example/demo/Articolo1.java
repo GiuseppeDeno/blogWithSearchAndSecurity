@@ -19,16 +19,7 @@ public class Articolo1 {
 	private String categoria;
 	private String url;
 	
-	//private int likeCount = 0; //  per contare i like
-
-	/*    // Getters e Setters per likeCount
-	    public int getLikeCount() {
-	        return likeCount;
-	    }
-
-	    public void setLikeCount(int likeCount) {
-	        this.likeCount = likeCount;
-	    }*/
+	
 	
 	public long getId() {
 		return id;

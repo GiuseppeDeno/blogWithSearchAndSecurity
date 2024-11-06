@@ -24,22 +24,23 @@ The **Blog with Search and Login** project is a web application built with **Spr
 ### Login Page
 The admin panel is protected by a login system that requires a valid username and password. Only authenticated users with the appropriate credentials can access the panel.
 
-![Login Page](images/login-page.png)
+![Login Page](images/0login.jpg)
 
 ### Admin Panel - Article Management
 Administrators can add, modify, and delete articles. Each article includes a title, content, image, and category.
 
-![Admin Panel](images/admin-panel.png)
+![Admin Panel](images/1.jpg)
+![Admin Panel](images/2.jpg)
 
 ### Article Display
 On the user-facing side, articles are displayed dynamically, organized by categories. Users can click on a category in the sidebar to filter articles.
 
-![Articles Page](images/articles-page.png)
+![Articles Page](images/5.jpg)
 
 ### Search Functionality
 The application includes a search form that allows users to search articles by keyword.
 
-![Search Functionality](images/search-functionality.png)
+![Search Functionality](images/3.jpg)
 
 ## Database Structure
 The application uses a MySQL database to store articles and categories. Articles are linked to categories, allowing users to filter articles by their respective category.

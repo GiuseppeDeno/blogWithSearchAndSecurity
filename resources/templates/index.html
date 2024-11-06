@@ -115,32 +115,3 @@
 
 
 
-<!-- L'attributo th:href in Thymeleaf viene utilizzato per generare dinamicamente l'URL di un collegamento 
-(link) in base a variabili o parametri passati dal tuo controller. 
-La sintassio th:href="@{/(categoria=${categoria})}" serve per costruire un URL che include
- un parametro di query chiamato categoria.
-
- spiegazione 
-i
-
-    @{...}: Questa sintassi indica che stai creando un'espressione per costruire un URL.
-    /(categoria=${categoria}): Qui, si specigica il percorso dell'URL e i parametri di query da includere.
-
-Componenti dell'URL
-
-    /: Questo rappresenta la radice dell'URL. In un'applicazione web, potrebbe corrispondere
-     all'indirizzo base del tuo progetto.
-    categoria=${categoria}: Questo è un parametro di query che verrà incluso nell'URL. ${categoria}
-     è una variabile Thymeleaf che sarà sostituita con il valore della variabile categoria nel contesto.
-      Quando questo viene elaborato, se categoria è uguale a "sport", l'URL risultante sarà /categoria=sport.
-
-ovvero per  Esempio di utilizzo
-
-Se nel controller hai una lista di categorie e vuoi creare un link per ciascuna categoria,
- potresti avere qualcosa di simile nel tuo template HTML:
-
-ovvero
-
-<li th:each="categoria : ${categorie}">
-    <a th:href="@{/(categoria=${categoria})}" th:text="${categoria}"></a>
-</li> -->

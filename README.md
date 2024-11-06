@@ -45,7 +45,8 @@ The application includes a search form that allows users to search articles by k
 ## Database Structure
 The application uses a MySQL database to store articles and categories. Articles are linked to categories, allowing users to filter articles by their respective category.
 
-![Database Schema](images/database-schema.png)
+![Database Schema](images/db1Eng.jpg)
+![Database Schema](images/db2Eng.jpg)
 
 ---
 

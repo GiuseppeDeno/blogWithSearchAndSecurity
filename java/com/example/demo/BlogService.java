@@ -99,14 +99,6 @@ public class BlogService {
         return new ArrayList<>(lista); // Converte la lista in ArrayList
     }
 
-    // Metodo per ottenere l'articolo con il maggior numero di like
-    // (decommenta se necessario)
-    /*
-    public Articolo getArticoloPiuLike() {
-        return entityManager.createQuery("SELECT a FROM Articolo a ORDER BY a.likeCount DESC", Articolo.class)
-                            .setMaxResults(1)
-                            .getSingleResult();
-    }
-    */
+
 
 }

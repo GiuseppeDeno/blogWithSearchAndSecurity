@@ -2,7 +2,7 @@
 
 # Blog with Search and Login
 
-![Blog Logo](images/blog-logo.png) <!-- Logo o immagine principale del progetto -->
+![Blog Logo](images/logo.jpg) <!-- Logo o immagine principale del progetto -->
 
 ## Project Overview
 

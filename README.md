@@ -1,118 +1,59 @@
+Non è possibile utilizzare HTML completo come <html>, <head>, <body>, ecc., all'interno di un file README.md in formato Markdown, poiché le piattaforme come GitHub supportano solo una selezione limitata di tag HTML (come <img>, <h1>, <p>, <a>, ecc.) e non eseguono né CSS né JavaScript. In alternativa, puoi utilizzare solo elementi di base di Markdown per rendere visivo il README.md.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog with Search and Login - README</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        h1, h2 {
-            color: #1a73e8;
-        }
-        .section {
-            padding: 50px 0;
-        }
-        .container {
-            max-width: 900px;
-        }
-        .feature-image {
-            max-width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .card-title {
-            font-size: 1.5em;
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-        }
-    </style>
-</head>
-<body>
+Ecco come puoi adattare il contenuto in modo che funzioni in un file README.md:
 
-    <nav class="blue darken-3">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">Blog with Search and Login</a>
-        </div>
-    </nav>
+    Rimuovi il CSS e Javascript e usa solo Markdown e tag HTML supportati. Puoi anche personalizzare con elementi di formattazione Markdown come titoli e immagini.
 
-    <div class="container">
-        <section class="section">
-            <h1>Project Overview</h1>
-            <p>
-                The <strong>Blog with Search and Login</strong> project is a web application built with <strong>Spring Boot</strong>. 
-                It allows administrators to manage articles, with functionalities like creating, editing, and deleting articles. 
-                The app is secured with login functionality and features a dynamic category-based sidebar and a search bar for users to filter articles.
-            </p>
-            <img src="images/blog-homepage.png" alt="Blog Homepage" class="feature-image">
-        </section>
+    Esempio di come potrebbe apparire il tuo README.md:
 
-        <section class="section">
-            <h2>Technologies Used</h2>
-            <ul>
-                <li><strong>Spring Boot</strong> - For creating the backend and managing the entire application lifecycle.</li>
-                <li><strong>Spring Security</strong> - For securing the admin panel with authentication.</li>
-                <li><strong>Thymeleaf</strong> - For dynamic HTML templating.</li>
-                <li><strong>JPA (Java Persistence API)</strong> - For managing the persistence of articles in a MySQL database.</li>
-                <li><strong>Materialize CSS</strong> - For the responsive and modern frontend design.</li>
-                <li><strong>MySQL</strong> - For storing articles, user information, and categories.</li>
-            </ul>
-        </section>
+# Blog with Search and Login
 
-        <section class="section">
-            <h2>Features</h2>
-            <h3>Login Page</h3>
-            <p>
-                The admin panel is protected by a login system that requires a valid username and password.
-                Only authenticated users with the appropriate credentials can access the panel.
-            </p>
-            <img src="images/login-page.png" alt="Login Page" class="feature-image">
+![Blog Logo](images/blog-logo.png) <!-- Logo o immagine principale del progetto -->
 
-            <h3>Admin Panel - Article Management</h3>
-            <p>
-                Administrators can add, modify, and delete articles. Each article includes a title, content, image, and category.
-                Articles are listed in the admin panel as cards, which allow quick management actions such as editing or deleting.
-            </p>
-            <img src="images/admin-panel.png" alt="Admin Panel" class="feature-image">
+## Project Overview
 
-            <h3>Article Display</h3>
-            <p>
-                On the user-facing side, articles are displayed dynamically, organized by categories. Users can click on a category in the sidebar to filter articles.
-            </p>
-            <img src="images/articles-page.png" alt="Articles Page" class="feature-image">
+The **Blog with Search and Login** project is a web application built with **Spring Boot**. It allows administrators to manage articles, including creating, editing, and deleting articles. The app is secured with login functionality and features a dynamic category-based sidebar and a search bar for users to filter articles.
 
-            <h3>Search Functionality</h3>
-            <p>
-                The application includes a search form that allows users to search articles by keyword, which can match the article's title or content.
-            </p>
-            <img src="images/search-functionality.png" alt="Search Functionality" class="feature-image">
-        </section>
+![Blog Homepage](images/blog-homepage.png)
 
-        <section class="section">
-            <h2>Database Structure</h2>
-            <p>
-                The application uses a MySQL database to store articles and categories. Articles are linked to categories, allowing users to filter articles by their respective category.
-            </p>
-            <img src="images/database-schema.png" alt="Database Schema" class="feature-image">
-        </section>
+## Technologies Used
 
-        <footer>
-            <p>&copy; 2024 Blog with Search and Login. All rights reserved.</p>
-        </footer>
-    </div>
+- **Spring Boot** - For creating the backend and managing the entire application lifecycle.
+- **Spring Security** - For securing the admin panel with authentication.
+- **Thymeleaf** - For dynamic HTML templating.
+- **JPA (Java Persistence API)** - For managing the persistence of articles in a MySQL database.
+- **Materialize CSS** - For the responsive and modern frontend design.
+- **MySQL** - For storing articles, user information, and categories.
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
-</html>
+## Features
+
+### Login Page
+The admin panel is protected by a login system that requires a valid username and password. Only authenticated users with the appropriate credentials can access the panel.
+
+![Login Page](images/login-page.png)
+
+### Admin Panel - Article Management
+Administrators can add, modify, and delete articles. Each article includes a title, content, image, and category.
+
+![Admin Panel](images/admin-panel.png)
+
+### Article Display
+On the user-facing side, articles are displayed dynamically, organized by categories. Users can click on a category in the sidebar to filter articles.
+
+![Articles Page](images/articles-page.png)
+
+### Search Functionality
+The application includes a search form that allows users to search articles by keyword.
+
+![Search Functionality](images/search-functionality.png)
+
+## Database Structure
+The application uses a MySQL database to store articles and categories. Articles are linked to categories, allowing users to filter articles by their respective category.
+
+![Database Schema](images/database-schema.png)
+
+---
+
+### Footer
+
+&copy; 2024 Blog with Search and Login. All rights reserved.
